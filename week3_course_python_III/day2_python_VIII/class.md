@@ -4,7 +4,7 @@
 
 **Work-in:**
 
-1. Python VII
+1. Python VIII (imports & classes & lambda)
 
 ---------
 
