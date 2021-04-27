@@ -4,14 +4,15 @@ Utilizando los archivos ".py" que están en las carpetas "a" y "b", crea dos fun
 
 Una vez las tengas todas añade la siguiente funcionalidad a cada una de las funciones correspondientes:
 
-1. La función "f1y" que has creado en el archivo 'y.py' debe llamar a la función "f1x" del archivo 'x.py'
-2. La función "f2z" debe llamar a la función 'f2x'
+1. La función "f1y" que has creado en el archivo 'y.py' debe llamar a la función "f1x" del archivo 'x.py' #hecho
+2. La función "f2z" debe llamar a la función 'f2x' xx
 3. La función "f1z" debe llamar a la función 'f1y'
+done
 
 ¿ Ha dado algún error?
 
 4. La función "f2y" debe llamar a la función 'f2x'
-
+done
 ¿ Ha dado algún error?
 
 5. La función "f2x" debe llamar a la función 'f2z'
