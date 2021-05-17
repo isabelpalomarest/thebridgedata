@@ -37,7 +37,9 @@ while "#" in jugador1.tablero1.values or "#" in jugador2.tablero2.values:
     print("---------")
 
 else:
-    if "#" not in jugador1.tablero1.values:
-        print("¡Gana jugador 2! GAME OVER")
-    if "#" not in jugador2.tablero2.values:
-        print("¡Gana jugador 1! GAME OVER")
+    if "#" in jugador1.tablero1.values:
+        print("¡Gana jugador 1!")
+    elif "#" in jugador2.tablero2.values:
+        print("¡Gana jugador 2!")
+    else:
+        "GAME OVER"

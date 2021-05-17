@@ -36,13 +36,13 @@ class Barco:
 
                 fil = int(input("Introduce la coordenada fila con números entre el 1 y el 10")) 
                 col = int(input("Introduce la coordenada columna con números entre el 1 y el 10"))
-                
+
                 if isinstance((fil,col),int):
                     pass
                 break
             except Exception:
                 print("Please, insert a number")
-                
+
 # Si tenemos ya barco en la coordenada introducida:
         if df.loc[fil,col] == "#" : 
             print("Ops! There´s already a boat,try again!")
