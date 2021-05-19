@@ -10,7 +10,6 @@ from utils.dataframes import get_data_from_df, load_csv_df, load_csv_for_map
 
 path = os.path.dirname(__file__)
 df = None
-    
 menu = st.sidebar.selectbox('Menu:',
             options=["No selected", "Normal Dataframe", "Load Dataframe Columns", "Graphs", "Map"])
 
@@ -40,14 +39,14 @@ if menu == "Load Dataframe Columns":
             graph_slider_1 = None
             st.text(str(new_df_path))
             df_writed = pd.read_csv(str(new_df_path))
-        if type(df_writed) != type(None):
-            for i in range(5): st.write("")
-            st.table(df_writed)
         if st.button('Show values'):
             values = None
             if type(df_writed) == type(pd.DataFrame()):
                 values = get_data_from_df(df_writed)
             st.write(' Selected  '+ str(values))
+        if type(df_writed) != type(None):
+            for i in range(5): st.write("")
+            st.table(df_writed)
         if type(slider_csv) != type(None):
             df_slider = load_csv_df(slider_csv)
             df_writed = None

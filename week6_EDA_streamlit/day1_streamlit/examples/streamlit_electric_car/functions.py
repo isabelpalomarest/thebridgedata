@@ -75,7 +75,7 @@ def menu_filtrado(df):
 def opciones_filtros(df):
     distritos = st.sidebar.selectbox(
         'Selecciona el distrito que te interese:',
-        options=df.DISTRITO.unique().tolist())
+        options = df.DISTRITO.unique().tolist())
     filtro_distrito = st.sidebar.checkbox('Quiero filtrar por distrito')
 
     tamano = st.sidebar.select_slider("Selecciona el numero de cargadores por puesto",
