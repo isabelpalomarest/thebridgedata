@@ -18,16 +18,8 @@ print("\nThe operation was: (x^y)*v (if v exists)\n")
 print("(" + str(base) + "^" + str(exp) + ")" + "*" + str(v) + "[if exists]" + " = " + str(result))
 print("\nThe final result is:", result)
 print("\n####################")
-# TO RUN: 
-#python Z:\Data_Science\TheBridge\Content\Contenido_Curso\data_science_apr_2021\week5_EDA_scraping_eda_summary\day5_sys_argparse\theory\python\arg_parse\1_arg_parse.py -x 2 -y 4 -v 2
 
-# 1
-# python o python3 
-# 2
-# ruta al fichero 
-# 3
-# args
-# --help
+parser = argparse.ArgumentParser()
+parser.add_argument("-x", "--x", type=int, help="password")
 
-# 'python' 'ruta' 'args'
- 
+
