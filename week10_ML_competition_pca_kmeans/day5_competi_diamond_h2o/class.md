@@ -4,10 +4,21 @@
 
 **Work-in:**
 
-1. Intro O'Reilly
-2. Mini intro No supervised:
-    - https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/ch09.html#unsupervised_learning_chapter
-    
+1. Diamond competition students solutions
+2. Diamond competition h2o
+3. Return to Non-supervised
+
+*Tutorials*
+---------
+
+**Work-out:**
+
+4. Diamond competition
+
+#### Remember: All this is for your future job! the more you try now, the more reward you will have in the future.
+
+*NOTE: Under the cells in pandas exercises, there is the solution. Remember that if you run the cells you will lose the solution. For that, try to create new cells to check your solution.*
+
 ---------
 
 *Remember, you have many cheatsheets. Learn to use it.*
